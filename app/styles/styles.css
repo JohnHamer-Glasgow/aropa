@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: square;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+/* END OF RESET CSS */
+
+body { 
+    background-color: #FFFFFF;
+    color: #000000; 
+    font-family: Verdana, sans-serif;
+}
+
+.wait, .wait * { cursor: wait !important; }
+div#mask {
+    display: none;
+    cursor: wait;
+    background-image: url(opencmd.php?t=gif&f=waiting.gif);
+    z-index: 9999; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%;
+    background-color: #fff;
+    opacity: 40;
+    filter: alpha(opacity = 40);
+}
+
+
+a { text-decoration: none; }
+a:link { color: #3333FF; }
+a:visited { color: #FF9966; }
+a.nav:link, a.nav:visited { color: #FFFF00; }
+a.list:link, a.list:visited { color: #336699; }
+
+h1,h2,h3,h4,h5,h6 { color: #9d0000; }
+
+h1 {
+    font-size: 1.5em;
+    line-height: 140%;
+    text-align: center;
+    border-bottom: 2px solid #666;
+    border-top: 2px solid #666;
+    margin-top: 1em;
+    margin-bottom: .6em;
+    background-image: url(opencmd.php?t=png&f=flax-repeat.png);
+}
+
+h2, h3, h4 {
+    margin-top: .7em;
+}
+
+dd {
+    padding-left: 6ex;
+    max-width: 72ex;
+}
+
+#banner {
+    width: 100%;
+    height: 92pt;
+    background-repeat: repeat-x;
+    background-image: url(opencmd.php?t=png&f=flax-repeat.png);
+    z-index: -1;
+}
+
+#banner img {
+    border: 0;
+    float: left;
+}
+
+p#whoami {
+    position: absolute;
+    left: 0px;
+    top: 92px;
+    font-size: .8em;
+    max-width: 100%;
+}
+
+#content {
+    clear: both;
+}
+
+th, td {
+    padding: 2px;
+}
+
+p {
+    max-width: 72ex;
+}
+
+/* GradeCalc page */
+#gradeTable {
+    border: 2px solid #9d0000;
+    margin: 3px;
+    clear: both;
+    float: left;
+}
+
+#reviewerTable {
+    border: 2px solid #9d0000;
+    margin: 3px;
+    float: left;
+}
+
+.reviewingTarget {
+    font-size: .7em;
+}
+
+#gradeTable    tr:nth-child(even),
+#reviewerTable tr:nth-child(even) {
+    background: #CCC;
+}
+#gradeTable    tr:nth-child(odd),
+#reviewerTable tr:nth-child(odd) {
+    background: #FFF;
+}
+
+
+#gradeTable td, #reviewerTable td, #authorDetail td, #reviewingDetail td  {
+    text-align: right;
+}
+
+#authorDetail, #reviewingDetail {
+    /*top: 0; left: 0; width: 50%; height: 50%;*/
+    left: 57ex;
+/*    height: 20em;
+    overflow: auto;*/
+    position: fixed;
+    display: table;
+    background-color: #ddd;
+   /* opacity: 0.9;*/
+}
+
+#authorDetailContent, #reviewingDetailContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#reviewingDetail p {
+    font-size: .7em;
+}
+
+#gradeCalcInfo {
+    border: 2px groove #000;
+    margin: 3px;
+    width: 73ex;
+}
+
+/* ViewAllFeedback */
+#feedback {
+    max-width: 72ex;
+}
+
+/*.authorFB:before { content: "Author: " }*/
+.authorFB {
+    border: 1px solid #9d0000;
+}
+
+.itemFB:before { content: " " }
+.itemFB {
+    font-style: italic;
+}
+
+.commentFB {
+    margin-left: 3em;
+}

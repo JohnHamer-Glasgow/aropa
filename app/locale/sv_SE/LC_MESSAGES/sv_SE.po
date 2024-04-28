@@ -1,0 +1,2809 @@
+# Swedish translation of Aropa
+# Copyright (C) 2010 John Hamer
+# This file is distributed under the same license as the Aropa program.
+# John Hamer <J.Hamer@cs.auckland.ac.nz>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-23 15:50+0100\n"
+"PO-Revision-Date: 2010-08-24 16:19+BST\n"
+"Last-Translator: Google Translate\n"
+"Language: sv\n"
+"Language-Team: John Hamer and Google Translate\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+
+#: Allocations.php:284 Allocations.php:352
+msgid "There are no allocations"
+msgstr "Det finns inga anslag"
+
+#: Allocations.php:289 calcGrades.php:695 monitor-reviewing.php:275
+#: monitor-reviewing.php:295
+msgid "Reviewer"
+msgstr "Granskare"
+
+#: Allocations.php:290 doAllocation.php:692
+msgid "Authors"
+msgstr "Författare"
+
+#: Allocations.php:295 Allocations.php:363
+msgid ""
+"Entries marked with * indicate the author has responded to reviewer comments"
+msgstr "Inlägg markerade med * visar författaren har svarat på recensenter kommentarer"
+
+#: Allocations.php:298 doAllocation.php:928
+msgid "Allocations by reviewer"
+msgstr "Avsättning av granskare"
+
+#: Allocations.php:299
+#, php-format
+msgid "%d total; %d not started; %d partially complete; %d completed"
+msgstr "%d totalt, %d startade inte, %d delvis komplett, %d avslutad"
+
+#: Allocations.php:357 download.php:82 download.php:142 download.php:344
+#: download.php:366 download.php:400 download.php:500 download.php:575
+#: monitor-reviewing.php:35 monitor-reviewing.php:452
+#: monitor-reviewing.php:471
+msgid "Author"
+msgstr "Författare"
+
+#: Allocations.php:358 doAllocation.php:703
+msgid "Reviewers"
+msgstr "Granskare"
+
+#: Allocations.php:366
+msgid "Allocations by author"
+msgstr "Avsättning av författaren"
+
+#: Allocations.php:367
+#, php-format
+msgid ""
+"%d total; %d with no reviews; %d with some reviews; %d with all reviews."
+msgstr "%d totalt, %d med inga recensioner, %d med några recensioner, %d med alla recensioner."
+
+#: Groups.php:143
+msgid "There are no reviewer groups"
+msgstr "Det finns inga recensenter grupper"
+
+#: Groups.php:147
+msgid "Reviewer groups"
+msgstr "Granskare grupper"
+
+#: Groups.php:161
+msgid "There are no submission groups"
+msgstr "Det finns inga uppgifter grupper"
+
+#: Groups.php:164
+msgid "Submission groups"
+msgstr "Inlämning grupper"
+
+#: XmlElement.php:449
+#, php-format
+msgid "Can't mix '%s' with '%s' type format strings"
+msgstr "Kan inte blanda \"%s\" med \"%s\" typ formatsträngar"
+
+#: ZipLib.php:208
+msgid "Can't inflate data: zlib support not enabled in this PHP"
+msgstr "Kan inte blåsa upp data: zlib stöder inte aktiverat i detta PHP"
+
+#: ZipLib.php:396
+#, php-format
+msgid "Can't open zip file '%s' for reading"
+msgstr "Kan inte öppna zip-filen &#39;%s&#39; för läsning"
+
+#: ZipLib.php:403
+msgid "Unexpected EOF in zip file"
+msgstr "Oväntat filslut i zip-fil"
+
+#: ZipLib.php:690
+#, php-format
+msgid "[%d] See [%s]"
+msgstr "[%d] Se [%s]"
+
+#: ZipLib.php:697
+msgid "References"
+msgstr "Referenser"
+
+#: adminCmds.php:23
+msgid "Show Current Users"
+msgstr "Visa Aktuella användare"
+
+#: adminCmds.php:28 editInstitutions.php:29
+msgid "Institutions"
+msgstr "Institutioner"
+
+#: adminCmds.php:32
+msgid "Edit Institution"
+msgstr "Redigera institution"
+
+#: adminCmds.php:49 editUser.php:309
+msgid "Courses"
+msgstr "Kurser"
+
+#: adminCmds.php:56
+msgid "Browse rubrics"
+msgstr "Bläddra bland rubrikerna"
+
+#: adminCmds.php:74
+msgid "Log Queries"
+msgstr "Logga sökfrågor"
+
+#: adminCmds.php:79
+msgid "Export"
+msgstr "Export"
+
+#: adminCmds.php:85
+msgid "Show $_SESSION"
+msgstr "Visa $ _SESSION"
+
+#: aropa.php:222
+msgid "Sorry, a software error has occurred"
+msgstr "Tyvärr, en programvara fel har inträffat"
+
+#: aropa.php:223
+msgid ""
+"This is probably due to a programming error.  The system is unable to "
+"complete the current operation.  An error report has been logged."
+msgstr "Detta beror förmodligen på ett programmeringsfel. Det systemet inte kan fullfölja pågående operationen. En felrapport har loggats."
+
+#: aropa.php:226
+msgid "Unable to connect to the database server."
+msgstr "Kan inte ansluta till databasservern."
+
+#: aropa.php:227
+msgid ""
+"This may be just a temporary problem.  Try again later, and if the problem "
+"is still present then contact your instructor or the system administrator."
+msgstr "Detta kan bara vara ett tillfälligt problem. Försök igen senare, och om problemet kvarstår kontakta din instruktör eller systemadministratören."
+
+#: aropa.php:232
+msgid "Invalid operation"
+msgstr "Ogiltig operation"
+
+#: aropa.php:233
+msgid "The action you have attempted cannot be performed."
+msgstr "Den handling du har försökt kan inte utföras."
+
+#: aropa.php:240
+msgid "Security alert"
+msgstr "Skyddslarm"
+
+#: aropa.php:241
+msgid ""
+"A second security anomoly has occurred. This session has been terminated.  "
+"Please contact the system administrator."
+msgstr "En andra säkerhet anomali har skett. Denna session har avbrutits. Vänligen kontakta systemadministratören."
+
+#: aropa.php:444
+msgid "Warning: "
+msgstr "Varning:"
+
+#: aropa.php:463
+msgid "Note: "
+msgstr "Anmärkning:"
+
+#: aropa.php:629
+msgid "Some unrecognised marks were submitted"
+msgstr "Några okända märken har lämnats"
+
+#: aropa.php:635
+msgid ""
+"Your review is incomplete.  Please re-mark it, and fill in marks for all "
+"items."
+msgstr "Din recension är ofullständiga. Skriv på nytt markera den, och fyll i betyg för samtliga poster."
+
+#: aropa.php:652
+msgid "Some unrecognised choice value were submitted"
+msgstr "Vissa oredovisade val värde lämnades"
+
+#: aropa.php:910
+msgid "You are not registered for any courses"
+msgstr "Du är inte registrerad för några kurser"
+
+#: aropa.php:912
+msgid "You are currently a member of the following courses:"
+msgstr "Du är för närvarande ledamot av följande kurser:"
+
+#: aropa.php:916
+msgid "Email address"
+msgstr "E-postadress"
+
+#: aropa.php:917
+msgid "If you would like to provide an email address, follow this link"
+msgstr "Om du vill ange en e-postadress, följ denna länk"
+
+#: aropa.php:918
+msgid "Provide email"
+msgstr "Tillhandahåller e-post"
+
+#: aropa.php:924
+msgid "This account is inactive"
+msgstr "Detta konto är inaktivt"
+
+#: aropa.php:926
+msgid "Your courses"
+msgstr "Dina kurser"
+
+#: aropa.php:929
+msgid "Change your password"
+msgstr "Ändra ditt lösenord"
+
+#: aropa.php:930
+msgid "If you would like to change your password, follow this link"
+msgstr "Om du vill ändra ditt lösenord, klicka här"
+
+#: aropa.php:931 changePasswd.php:30
+msgid "Change password"
+msgstr "Ändra lösenord"
+
+#: aropa.php:1100
+msgid "Add a new course"
+msgstr "Lägg till en ny kurs"
+
+#: aropa.php:1127 aropa.php:1164
+msgid "There was a problem finding the course you selected.  Please try again"
+msgstr "Det var ett problem att hitta den kurs du valt. Försök igen"
+
+#: aropa.php:1142
+msgid "You do not have any access rights set up for this course"
+msgstr "Du har inte någon tillgång till rättigheter som inrättades för denna kurs"
+
+#: aropa.php:1171
+msgid "You do not have access rights set up to view this course as a student"
+msgstr "Du har inte tillgång till rättigheter som inrättades för att kunna se denna kurs som en student"
+
+#: aropa.php:1192 showAllocations.php:61
+msgid "Assignments"
+msgstr "Uppdrag"
+
+#: aropa.php:1207 showAllocations.php:65
+msgid "Surveys"
+msgstr "Undersökningar"
+
+#: aropa.php:1228
+#, php-format
+msgid "The instructor is %s"
+msgstr "Instruktören är %s"
+
+#: aropa.php:1229
+#, php-format
+msgid "The instructors are: %s"
+msgstr "Instruktörerna är: %s"
+
+#: aropa.php:1230
+#, php-format
+
+#: aropa.php:1231
+#, php-format
+
+#: aropa.php:1232
+#, php-format
+
+#: aropa.php:1242
+msgid "The course has one guest"
+msgstr "Kursen har en gäst"
+
+#: aropa.php:1243
+msgid "View class list"
+msgstr "Visa klass lista"
+
+#: aropa.php:1244
+msgid "Edit class list"
+msgstr "Redigera klass lista"
+
+#: aropa.php:1245
+msgid "Create assignment"
+msgstr "Skapa uppdrag"
+
+#: aropa.php:1246
+msgid "Create survey"
+msgstr "Skapa undersökning"
+
+#: aropa.php:1247 viewAssignment.php:43
+msgid "Impersonate other user"
+msgstr "Imitera andra användare"
+
+#: aropa.php:1320
+#, php-format
+msgid "Assignment #%d"
+msgstr "Uppdrag #%d"
+
+#: aropa.php:1337
+#, php-format
+msgid "Survey #"
+msgstr "Survey #"
+
+#: aropa.php:1364
+msgid "You cannot access the selected assignment"
+msgstr "Du kan inte komma åt den valda uppgiften"
+
+#: aropa.php:1365 calcGrades.php:636 changePasswd.php:92 editCourses.php:64
+#: editGroups.php:132 editInstitutions.php:33 editInstitutions.php:44
+#: editRubric.php:27 editRubric.php:43 editUser.php:228 editUser.php:264
+#: extensions.php:204 showComments.php:82 showReviewerComments.php:95
+#: survey.php:31 survey.php:37 survey.php:199 updateEssay.php:137
+#: viewAssignment.php:268 viewAssignment.php:300 viewEssay.php:56
+msgid "Return"
+msgstr "Avkastning"
+
+#: aropa.php:1490
+msgid "Download a document"
+msgstr "Ladda ner ett dokument"
+
+#: aropa.php:1535
+msgid "Invalid action"
+msgstr "Ogiltig åtgärd"
+
+#: aropa.php:1535
+msgid "The action you have attempted cannot be performed"
+msgstr "Den handling du har försökt kan inte utföras"
+
+#: aropa.php:1548
+#, php-format
+msgid "(Unable to perform the action %s)"
+msgstr "(Det går inte att utföra talan %s)"
+
+#: aropa.php:1557
+msgid "The Arop&auml; Peer Assessment System"
+msgstr "Den Aropä Peer bedömningssystemet för"
+
+#: aropa.php:1563
+msgid "Home"
+msgstr "Hem"
+
+#: aropa.php:1602
+#, php-format
+msgid ">> REVERT to %s"
+msgstr ">> Återgå till %s"
+
+#: aropa.php:1604
+msgid ">> LOGOUT"
+msgstr ">> Logga ut"
+
+#: aropa.php:1611
+msgid "You are logged in as "
+msgstr "Du är inloggad som"
+
+#: calcGrades.php:244
+msgid "Total,Discrepancy,Reviews\n"
+msgstr "Totalt, diskrepans, Recensioner\n"
+
+#: calcGrades.php:266
+msgid "Reviewer,Weight,Reviews,CommentsBytes,CommentEntropy\n"
+msgstr "Granskare, Vikt, Recensioner, CommentsBytes, CommentEntropy\n"
+
+#: calcGrades.php:306
+msgid "Author,Group,"
+msgstr "Författare, grupp,"
+
+#: calcGrades.php:309
+msgid ""
+"Total,Discrepancy,ReviewsRecd,Weight,ReviewsWritten,CommentBytes,"
+"CommentEntropy,SelfReview\n"
+msgstr "Totalt, diskrepans, ReviewsRecd, Vikt, ReviewsWritten, CommentBytes, CommentEntropy, SelfReview\n"
+
+#: calcGrades.php:566 calcGrades.php:724
+msgid "You do not have access to assignment #"
+msgstr "Du har inte tillgång till uppdrag #"
+
+#: calcGrades.php:610
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: calcGrades.php:612
+msgid "The marks for each section are the "
+msgstr "De märken för varje avsnitt är"
+
+#: calcGrades.php:622
+msgid " of the reviewer's marks"
+msgstr "kontrollantens s märken"
+
+#: calcGrades.php:623
+msgid "Reviewers are weighted"
+msgstr "Recensenter är viktade"
+
+#: calcGrades.php:634
+msgid "Recalculate grades"
+msgstr "Beräkna betyg"
+
+#: calcGrades.php:635
+msgid "Download grade spreadsheet"
+msgstr "Hämta grad kalkylblad"
+
+#: calcGrades.php:642 calcGrades.php:663
+msgid "Total"
+msgstr "Totalt"
+
+#: calcGrades.php:643 calcGrades.php:664
+msgid "Extent of commenting"
+msgstr "Omfattningen av kommentarer"
+
+#: calcGrades.php:644
+msgid "Exclude review?"
+msgstr "Uteslut recension?"
+
+#: calcGrades.php:650
+msgid "All marks given for author "
+msgstr "Alla poäng som för författare"
+
+#: calcGrades.php:665
+msgid "Exclude review? "
+msgstr "Uteslut recension?"
+
+#: calcGrades.php:671
+msgid "All marks given by reviewer "
+msgstr "Alla poäng som granskare"
+
+#: calcGrades.php:676
+msgid ""
+"Numbers in square brackets are the average marks for the section over all "
+"reviewers."
+msgstr "Siffror inom parentes är de genomsnittliga poäng för avsnittet över alla recensenter."
+
+#: calcGrades.php:677
+msgid ""
+" A significant discrepancy may indicate the reviewer misunderstood the "
+"grading criteria for that question."
+msgstr "En betydande avvikelse kan tyda på att recensenten missuppfattat betygskriterier för frågan."
+
+#: calcGrades.php:687
+msgid ""
+"The Discrepancy indicates the extent of disagreement between \n"
+"reviewers' marks for an author's submission. A high Discrepancy may indicate "
+"that some reviews are anomalous;\n"
+"you may choose to exclude highly anomalous reviews in the grade calculation."
+msgstr "Avvikelsen anger graden av oenighet mellan granskarnas betyg för en författare lämnades in. En hög Skillnader kan tyda på att vissa recensioner är avvikande, du kan välja att utesluta mycket avvikande recensioner i den lönegrad beräkningen."
+
+#: calcGrades.php:690
+msgid "Discrepancy"
+msgstr "Skillnader"
+
+#: calcGrades.php:697
+msgid "Weight"
+msgstr "Vikt"
+
+#: calcGrades.php:698
+msgid "Reviews"
+msgstr "Recensioner"
+
+#: calcGrades.php:700 monitor-reviewing.php:340 monitor-reviewing.php:520
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: changePasswd.php:26
+msgid "You must set your password before using the system."
+msgstr "Du måste ange ditt lösenord innan du använder systemet."
+
+#: changePasswd.php:27
+msgid "Set password"
+msgstr "Ange lösenord"
+
+#: changePasswd.php:29
+#, php-format
+msgid "Change password for <q>%s</q>"
+msgstr "Ändra lösenord för <q>%s</q>"
+
+#: changePasswd.php:32
+msgid "Old password"
+msgstr "Gammalt lösenord"
+
+#: changePasswd.php:36
+msgid ""
+"You are using Impersonate Other User to change the password for someone "
+"other than yourself."
+msgstr "Du använder Härma Andra användaren att ändra lösenordet för någon annan än dig själv."
+
+#: changePasswd.php:39
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: changePasswd.php:42
+msgid "Verify new password"
+msgstr "Bekräfta nytt lösenord"
+
+#: changePasswd.php:51 changePasswd.php:134 changePasswd.php:140
+#: doAllocation.php:351 doAllocation.php:458 doAllocation.php:624
+#: doAllocation.php:719 doAllocation.php:1049 doAllocation.php:1173
+#: editAssignment.php:221 editAssignment.php:315 editCourses.php:225
+#: editGroups.php:72 editInstitutions.php:126 editRubric.php:156
+#: editSurvey.php:94 editUser.php:114 editUser.php:321 extensions.php:89
+#: instructorCmds.php:234 markEssay.php:70 markEssay.php:124 survey.php:93
+#: uploadSubmissions.php:146 uploadSubmissions.php:377 viewAssignment.php:305
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: changePasswd.php:65
+msgid "The new password was not typed the same each time.  Please try again"
+msgstr "Det nya lösenordet har inte skrivit samma varje gång. Försök igen"
+
+#: changePasswd.php:72
+msgid "No user account available; unable to change password."
+msgstr "Ingen användarkonto tillgängliga, inte kan ändra lösenord."
+
+#: changePasswd.php:75
+msgid "You did not enter your old password correctly"
+msgstr "Du skrev inte in det gamla lösenordet på rätt sätt"
+
+#: changePasswd.php:80
+msgid "Your password has been changed"
+msgstr "Ditt lösenord har ändrats"
+
+#: changePasswd.php:90
+msgid "You cannot change email when impersonating another user"
+msgstr "Du kan inte ändra e-post när härma en annan användare"
+
+#: changePasswd.php:91
+msgid "You must revert to your own account before changing your email."
+msgstr "Du måste återgå till ditt eget konto innan du ändrar din e-post."
+
+#: changePasswd.php:106
+msgid "Your email address has been updated to "
+msgstr "Din e-postadress har uppdaterats för att"
+
+#: changePasswd.php:110
+msgid ""
+"The email verification code you entered is not the one emailed to you.  "
+"Please enter it again."
+msgstr "Den e-verifieringskod du angav är inte ett skickas till dig. Ange det igen."
+
+#: changePasswd.php:118
+msgid "Your Aropa email verification code"
+msgstr "Din Aropa e-verifieringskod"
+
+#: changePasswd.php:119
+#, php-format
+msgid ""
+"Thank you for providing your email address.\n"
+"\n"
+"Your verification code is: %s\n"
+"\n"
+"To save your email address, return to Aropa and enter this code into the "
+"email verification field and press the Confirm button."
+msgstr "Tack för att du lämnat din e-postadress.\n"
+"\n"
+"Din verifieringskod är: %s\n"
+"\n"
+"Om du vill spara din e-postadress, tillbaka till Aropa och ange denna kod i e-kontroll och tryck på knappen Bekräfta."
+
+#: changePasswd.php:125
+msgid "A verification code has been sent to the email address you entered."
+msgstr "En verifieringskod har skickats till e-postadressen du angav."
+
+#: changePasswd.php:126
+msgid " Please enter the verification code to confirm your email address."
+msgstr "Ange verifieringskoden för att bekräfta din e-postadress."
+
+#: changePasswd.php:131
+msgid "Verification code"
+msgstr "Verifieringskod"
+
+#: changePasswd.php:133 uploadSubmissions.php:376 viewAssignment.php:304
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: changePasswd.php:136
+msgid "Enter your email address"
+msgstr "Skriv in din e-postadress"
+
+#: changePasswd.php:139
+msgid "Submit"
+msgstr "Skicka"
+
+#: changePasswd.php:142
+msgid "Change email for "
+msgstr "Ändra e-postadress för"
+
+#: doAllocation.php:331
+msgid "Setup allocations"
+msgstr "Setup anslag"
+
+#: doAllocation.php:332
+msgid "An allocation is an author-reviewer pair"
+msgstr "Ett anslag är en författare, granskare par"
+
+#: doAllocation.php:333
+msgid "There are three ways to create allocations:"
+msgstr "Det finns tre sätt att skapa anslag:"
+
+#: doAllocation.php:334
+msgid "Normally"
+msgstr "Normalt"
+
+#: doAllocation.php:335
+msgid ""
+"Reviewers are allocated to author submissions randomly after the submission "
+"deadline"
+msgstr "Granskare tilldelas författaren synpunkter slumpmässigt efter inlämningsdatum"
+
+#: doAllocation.php:336 doAllocation.php:1402
+msgid "Tags"
+msgstr "Taggar"
+
+#: doAllocation.php:337
+msgid ""
+"Authors tag their submissions, and reviewers are allocated submissions with "
+"either the same or a different tag as their own"
+msgstr "Författare tagg sina inlägg, och recensenter tilldelas inlagor med antingen samma eller en annan tagg som sin egen"
+
+#: doAllocation.php:338
+msgid "By Stream"
+msgstr "Genom Stream"
+
+#: doAllocation.php:339
+msgid ""
+"The instructors divides reviewers into streams.  Each submission is reviewed "
+"by one reviewer from each stream. All authors will automatically be reviewers"
+msgstr "Instruktörerna delar recensenter till bäckar. Varje bidrag granskas av en granskare från varje ström. Alla författare kommer automatiskt att recensenter"
+
+#: doAllocation.php:340
+msgid "Manually"
+msgstr "Manuellt"
+
+#: doAllocation.php:341
+msgid ""
+"The instructor has complete control over the allocations, and enters author-"
+"reviewer pairs by hand"
+msgstr "Instruktören har total kontroll över anslagen, och går in författare-recensenten par hand"
+
+#: doAllocation.php:343
+msgid "Allocate normally"
+msgstr "Tilldela normalt"
+
+#: doAllocation.php:345
+msgid "Allocate using tags"
+msgstr "Tilldela med taggar"
+
+#: doAllocation.php:347
+msgid "Allocate using streams"
+msgstr "Fördela med hjälp av strömmar"
+
+#: doAllocation.php:349
+msgid "Allocate manually"
+msgstr "Tilldela manuellt"
+
+#: doAllocation.php:399
+msgid "Author tags"
+msgstr "Författare taggar"
+
+#: doAllocation.php:400
+msgid ""
+"Authors will tag the files they upload, and submissions will be allocated to "
+"a reviewer who\n"
+"submitted under the same or different tag.  This option assumes authors are "
+"also reviewers."
+msgstr "Författarna kommer att märka de filer som de laddar upp, och bidrag kommer att tilldelas en granskare som lämnas in under samma eller olika tagg. Detta alternativ förutsätter författarna är också recensenter."
+
+#: doAllocation.php:411
+msgid "Enter the tags here, each separated by a semi-colon "
+msgstr "Ange taggar här, var separerade med ett semikolon"
+
+#: doAllocation.php:422
+msgid "Allocate reviewers according to the same tags"
+msgstr "Tilldela recensioner enligt samma taggar"
+
+#: doAllocation.php:423
+msgid "Allocate reviewers according to different tags"
+msgstr "Tilldela recensioner enligt olika taggar"
+
+#: doAllocation.php:427 monitor-reviewing.php:223
+msgid "Allocations"
+msgstr "Avsättning"
+
+#: doAllocation.php:432
+msgid "Details"
+msgstr "Detaljer"
+
+#: doAllocation.php:433
+msgid "Authors are"
+msgstr "Författare är"
+
+#: doAllocation.php:436
+msgid "Reviewers are"
+msgstr "Recensenter är"
+
+#: doAllocation.php:439
+msgid "Please specify either:"
+msgstr "Var god ange antingen:"
+
+#: doAllocation.php:440
+msgid "The number of times each submission should be reviewed: "
+msgstr "Antalet gånger varje inlämning bör ses över:"
+
+#: doAllocation.php:443
+msgid "or"
+msgstr "eller"
+
+#: doAllocation.php:444
+msgid "The number of submissions each reviewer should mark: "
+msgstr "Antalet inlagor varje recensent bör innebära:"
+
+#: doAllocation.php:448
+msgid "Non-student authors (if any)"
+msgstr "Icke-student författare (om någon)"
+
+#: doAllocation.php:455
+msgid "Allocation records will be created after the submission deadline"
+msgstr "Tilldelning register kommer att skapas efter inlämningsdatum"
+
+#: doAllocation.php:456 doAllocation.php:1165 editCourses.php:63
+#: extensions.php:88
+msgid "Save changes"
+msgstr "Spara ändringar"
+
+#: doAllocation.php:457 doAllocation.php:623 doAllocation.php:718
+#: doAllocation.php:1048
+msgid "Change the allocation type"
+msgstr "Ändra fördelningen typ"
+
+#: doAllocation.php:479
+msgid " (WARNING: unregistered marker)"
+msgstr "(VARNING: oregistrerad markör)"
+
+#: doAllocation.php:482
+msgid "Markers for this assignment"
+msgstr "Markörer för detta uppdrag"
+
+#: doAllocation.php:489
+msgid "everyone in the class (plus any non-student authors below)"
+msgstr "alla i klassen (plus några icke-studerande författare nedan)"
+
+#: doAllocation.php:491
+msgid "just the non-student authors below"
+msgstr "bara de icke-studerande författare nedan"
+
+#: doAllocation.php:500
+msgid " (plus the Markers below)"
+msgstr "(Plus Markörer nedan)"
+
+#: doAllocation.php:503
+msgid "everyone in the class"
+msgstr "alla i klassen"
+
+#: doAllocation.php:504
+msgid "those who submit an assignment"
+msgstr "de som lägger fram ett uppdrag"
+
+#: doAllocation.php:507
+msgid "just the Markers below"
+msgstr "bara Markörer nedan"
+
+#: doAllocation.php:604
+msgid "Pending"
+msgstr "I avvaktan på"
+
+#: doAllocation.php:604
+msgid "Stream "
+msgstr "Stream"
+
+#: doAllocation.php:614
+msgid "Stream allocations"
+msgstr "Stream anslag"
+
+#: doAllocation.php:615
+msgid "Enter the reviewer names in each stream, one per line"
+msgstr "Ange recensenten namn i varje ström, ett per rad"
+
+#: doAllocation.php:616
+msgid "Use as many streams as you need; leave the others blank"
+msgstr "Använd så många strömmar som du behöver, lämnar de andra tomma"
+
+#: doAllocation.php:622
+msgid "Save streams"
+msgstr "Spara ström"
+
+#: doAllocation.php:688 doAllocation.php:1037
+msgid "Manual allocation"
+msgstr "Manuell tilldelning"
+
+#: doAllocation.php:689
+msgid "Auto-allocation for "
+msgstr "Auto-anslag för"
+
+#: doAllocation.php:701
+msgid "Review(s) per submission"
+msgstr "Granskning (ar) per inlämning"
+
+#: doAllocation.php:713
+msgid "Enter the names in the text areas above."
+msgstr "Ange namn i texten områdena ovan."
+
+#: doAllocation.php:714
+msgid "Tag allocations with the code: "
+msgstr "Tag anslagen med kod:"
+
+#: doAllocation.php:715
+msgid ""
+"These new allocations will replace any existing allocations with this tag."
+msgstr "De nya anslagen kommer att ersätta alla befintliga anslagen med denna tagg."
+
+#: doAllocation.php:716
+msgid "Leave the tag blank to replace all existing allocations."
+msgstr "Lämna taggen tomt för att ersätta alla befintliga anslagen."
+
+#: doAllocation.php:717
+msgid "Allocate"
+msgstr "Tilldela"
+
+#: doAllocation.php:915
+msgid "Allocation preview"
+msgstr "Fördelning förhandsgranska"
+
+#: doAllocation.php:916
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: doAllocation.php:917
+msgid "Number of submissions: "
+msgstr "Antal inlägg:"
+
+#: doAllocation.php:918
+msgid "Number of reviewers: "
+msgstr "Antal recensioner:"
+
+#: doAllocation.php:919
+msgid "Essays per reviewer: "
+msgstr "Essäer per recensent:"
+
+#: doAllocation.php:920
+msgid "Reviews per essay: "
+msgstr "Recensioner per uppsats:"
+
+#: doAllocation.php:921
+msgid "Number of allocations: "
+msgstr "Antal anslag:"
+
+#: doAllocation.php:922
+msgid " (requested "
+msgstr "(Begärda"
+
+#: doAllocation.php:923
+msgid "These allocations have not yet been saved. "
+msgstr "Dessa anslag har ännu inte sparats."
+
+#: doAllocation.php:927
+msgid "Save these allocations"
+msgstr "Spara denna fördelning"
+
+#: doAllocation.php:930
+msgid "Allocations by submission"
+msgstr "Fördelningen i de inlämnande"
+
+#: doAllocation.php:987 doAllocation.php:994
+msgid "Each line should be of the form"
+msgstr "Varje linje bör vara av formen"
+
+#: doAllocation.php:989
+msgid "reviewer author author ..."
+msgstr "granskare författare författare ..."
+
+#: doAllocation.php:991
+msgid ""
+"To enter the allocations in order of <tt>author reviewer-1 reviewer-2 ...</"
+"tt>,"
+msgstr "För att ange anslagen för <tt>författare recensenter-1 recensenter-2 ...</tt>"
+
+#: doAllocation.php:992 doAllocation.php:999
+msgid "click here"
+msgstr "Klicka här"
+
+#: doAllocation.php:996
+msgid "essay reviewer reviewer ..."
+msgstr "uppsats recensent recensent ..."
+
+#: doAllocation.php:998
+msgid ""
+"To enter the allocations in order of <tt>reviewer author-1 author-2 ...</tt>,"
+msgstr "För att ange fördelningen i den ordning de <tt>recensenter författare-1 författare-2 ...</tt>"
+
+#: doAllocation.php:1002
+msgid ""
+"The existing manual allocations are shown.  If you change them, they will be "
+"replaced."
+msgstr "Den befintliga manuella anslag visas. Om du ändrar dem, kommer de att ersättas."
+
+#: doAllocation.php:1026
+msgid "Unallocated"
+msgstr "Ofördelade"
+
+#: doAllocation.php:1028
+msgid "Unallocated<br/>authors"
+msgstr "Ofördelade <br/> författare"
+
+#: doAllocation.php:1032
+msgid "Unallocated<br/>reviewers"
+msgstr "Ofördelade <br/> recensioner"
+
+#: doAllocation.php:1038
+msgid "Enter the allocations in the text area below."
+msgstr "Skriv in anslagen i textfältet nedan."
+
+#: doAllocation.php:1047
+msgid "Save allocations"
+msgstr "Spara anslag"
+
+#: doAllocation.php:1136
+msgid "Are these students"
+msgstr "Är dessa studenter"
+
+#: doAllocation.php:1138
+msgid "authors"
+msgstr "författare"
+
+#: doAllocation.php:1140
+msgid "reviewers"
+msgstr "recensioner"
+
+#: doAllocation.php:1142
+msgid "both"
+msgstr "både"
+
+#: doAllocation.php:1143
+msgid "Allocations are done automatically"
+msgstr "Avsättning görs automatiskt"
+
+#: doAllocation.php:1144
+msgid "Enter the new student identifiers, one per line"
+msgstr "Ange den nya studenten identifierare, ett per rad"
+
+#: doAllocation.php:1151
+msgid "Allocations are done manually"
+msgstr "Avsättning sker manuellt"
+
+#: doAllocation.php:1152
+msgid "Enter the new authors and their reviewers, one author per line"
+msgstr "Ange den nya författarna och deras recensenter, en författare per rad"
+
+#: doAllocation.php:1154
+msgid "Author  reviewer-1 reviewer-2 ..."
+msgstr "Författare recensent-1 recensenter-2 ..."
+
+#: doAllocation.php:1158
+msgid "Allocations are done by stream"
+msgstr "Avsättning görs av ström"
+
+#: doAllocation.php:1159
+msgid ""
+"Enter the new student identifiers followed by their stream number, one per "
+"line"
+msgstr "Ange den nya studenten identifierare följt av deras ström nummer, ett per rad"
+
+#: doAllocation.php:1165
+msgid "Save and re-allocate"
+msgstr "Spara och omfördela"
+
+#: doAllocation.php:1167
+msgid "Additional students"
+msgstr "Ytterligare studenter"
+
+#: doAllocation.php:1188
+#, php-format
+msgid "Unable to find assignment #%d for the course <q>%s</q>"
+msgstr "Kan inte hitta uppdrag # %d för kursen <q>%s</q>"
+
+#: doAllocation.php:1382 doAllocation.php:1390 doAllocation.php:1391
+msgid "All tags"
+msgstr "Alla taggar"
+
+#: doAllocation.php:1392 doAllocation.php:1393
+msgid "Not submission"
+msgstr "Inte inlämning"
+
+#: doAllocation.php:1399
+msgid "Usable when including only authors who have submitted"
+msgstr "Användbart om man tar bara författare som har lämnat"
+
+#: doAllocation.php:1403
+msgid "Submission tags"
+msgstr "Inlämning taggar"
+
+#: doAllocation.php:1406
+msgid "Reviewer tags"
+msgstr "Granskare taggar"
+
+#: download.php:63
+msgid "There are no documents available to download"
+msgstr "Det finns inga dokument tillgängliga för nedladdning"
+
+#: download.php:104 download.php:167
+msgid "Download"
+msgstr "Hämta"
+
+#: download.php:185
+#, php-format
+msgid "Click here to view all reviews written by %s"
+msgstr "Klicka här för att se alla recensioner skrivna av %s"
+
+#: download.php:187
+msgid "Click here to view all reviews"
+msgstr "Klicka här för att se alla recensioner"
+
+#: download.php:297
+#, php-format
+msgid "In reviewing %s"
+msgstr "Vid en genomgång av %s"
+
+#: download.php:314
+#, php-format
+msgid "No comments were made by %s"
+msgstr "Inga kommentarer gjordes av %s"
+
+#: download.php:316
+#, php-format
+msgid "Comments made by %s"
+msgstr "Synpunkter från %s"
+
+#: download.php:325 download.php:387
+#, php-format
+msgid "Download for assignment '%s', allocation #%d"
+msgstr "Hämtningar för uppdrag &#39;%s&#39;, tilldelning #%d"
+
+#: download.php:328
+#, php-format
+msgid "Download for assignment '%s'"
+msgstr "Hämtningar för uppdraget \"%s\""
+
+#: download.php:339
+msgid "The file is unreadable.  Please check with your instructor."
+msgstr "Filen kan inte läsas. Kontrollera med din instruktör."
+
+#: download.php:362
+msgid "The selected submission is empty."
+msgstr "Den valda inlämning är tom."
+
+#: download.php:390
+#, php-format
+msgid "Download for assignment '%d'"
+msgstr "Hämtningar för uppdraget \"%d\""
+
+#: downloadUploads.php:28 viewAssignment.php:267
+msgid "You do not have access to the selected assignment"
+msgstr "Du har inte tillgång till den valda uppgiften"
+
+#: downloadUploads.php:31
+#, php-format
+msgid "Submissions for %s, as at %s"
+msgstr "Respondenter för %s, som på %s"
+
+#: editAssignment.php:44 editAssignment.php:63
+#, php-format
+msgid "There is no assignment #%d for the course %s"
+msgstr "Det finns ingen uppgift #%d för kursen %s"
+
+#: editAssignment.php:46
+#, php-format
+msgid "Review rating of %s"
+msgstr "Översyn betyg av %s"
+
+#: editAssignment.php:77 editAssignment.php:274
+msgid "Main details"
+msgstr "Huvudsakliga aspekter"
+
+#: editAssignment.php:78 editAssignment.php:275
+msgid "Assignment name"
+msgstr "Uppdrag namn"
+
+#: editAssignment.php:83
+msgid "Author submissions end"
+msgstr "Författare inlagor slut"
+
+#: editAssignment.php:93
+msgid "Reviewing ends"
+msgstr "Granska ändarna"
+
+#: editAssignment.php:106
+msgid "Prompt to display to the author when typing in text"
+msgstr "Uppmaning att visa att författaren när du skriver in text"
+
+#: editAssignment.php:107
+msgid "Required means the student will be warned if no text is entered."
+msgstr "Obligatorisk innebär att studenten får en varning om ingen text skrivs in."
+
+#: editAssignment.php:108 editAssignment.php:114 editAssignment.php:118
+msgid "Required?"
+msgstr "Krävs?"
+
+#: editAssignment.php:110
+msgid "Prompt to display to the author when selecting a file to upload"
+msgstr "Uppmaning att visa att författaren när man väljer en fil att ladda upp"
+
+#: editAssignment.php:111
+msgid "Type"
+msgstr "Typ"
+
+#: editAssignment.php:112
+msgid ""
+"Enter the extension, such as java (don't include the dot).  Separate "
+"alternative extensions with a comma."
+msgstr "Ange tillägg, t.ex. java (inte innefattar prick). Separat alternativa sträckningarna med ett kommatecken."
+
+#: editAssignment.php:112
+msgid "Extn (if Other)"
+msgstr "Flytande (om annan)"
+
+#: editAssignment.php:113
+msgid ""
+"Required means the student will be warned if a file matching this type is "
+"not uploaded."
+msgstr "Obligatorisk innebär att studenten får en varning om en fil matchar typen är inte uppladdad."
+
+#: editAssignment.php:116
+msgid "URL"
+msgstr "URL"
+
+#: editAssignment.php:117
+msgid "Prompt to display to the author when entering a URL"
+msgstr "Uppmaning att visa att författaren när du anger en webbadress"
+
+#: editAssignment.php:135
+msgid "Submission instructions"
+msgstr "Inlämning instruktioner"
+
+#: editAssignment.php:137
+msgid ""
+"Enter instructions to display to authors before they submit their assignment"
+msgstr "Skriv in instruktioner för att visa att författarna innan de lämnar sitt uppdrag"
+
+#: editAssignment.php:144
+msgid "Document formats"
+msgstr "Dokumentformat"
+
+#: editAssignment.php:145
+msgid "Authors can submit by:"
+msgstr "Författare kan lägga av:"
+
+#: editAssignment.php:146
+msgid ""
+"(a) using Arop&auml;'s built-in editor to cut-and-paste text (no diagrams)"
+msgstr "(A) använda Aropä inbyggda editor för att klippa och klistra text (inga diagram)"
+
+#: editAssignment.php:147
+msgid "(b) uploading a file"
+msgstr "(B) ladda upp en fil"
+
+#: editAssignment.php:148
+msgid ""
+"If more than one submission document is required, a combination\n"
+" of these methods may be used. You also need to indicate whether each "
+"submission document is <b>required</b> or <b>optional</b>.\n"
+" A <b>prompt</b> to the author must be provided for every submission "
+"document you expect."
+msgstr "Om mer än en inlämning dokument krävs, kombination av dessa metoder kan en användas. Du måste också ange om varje inskickat dokument <b>krävs</b> eller <b>frivilligt. En</b> uppmaning att författaren måste finnas för varje inlämning dokument du förväntar dig."
+
+#: editAssignment.php:151
+msgid "Using the Arop&auml; editor"
+msgstr "Använda Aropä redaktör"
+
+#: editAssignment.php:152
+msgid ""
+"If submissions have no images or complex layout, then authors can type in "
+"their submissions using the built-in \n"
+"Arop&auml; editor.  Simple formatting is supported. This is the recommended "
+"method."
+msgstr "Om skrivelser har inga bilder eller komplicerad layout, då författarna kan skriva i sina inlagor att använda den inbyggda Aropä redaktör. Enkel formatering stöds. Detta är den rekommenderade metoden."
+
+#: editAssignment.php:155
+msgid "Using file upload"
+msgstr "Använda filuppladdning"
+
+#: editAssignment.php:156
+msgid ""
+"Authors can upload documents.\n"
+" Files will need to be in a format that can be read by reviewers.  PDF is "
+"the recommended format."
+msgstr "Författare kan ladda upp dokument. Filer kommer att behöva i ett format som kan läsas av recensenter. PDF är det rekommenderade formatet."
+
+#: editAssignment.php:160
+msgid "Reviewing and feedback"
+msgstr "Granska och feedback"
+
+#: editAssignment.php:163
+msgid "Authors will review their own work."
+msgstr "Författarna kommer att granska sitt eget arbete."
+
+#: editAssignment.php:164
+msgid "Authors will not review their own work."
+msgstr "Författarna kommer inte att granska sitt eget arbete."
+
+#: editAssignment.php:168
+msgid "Author identity will not be revealed to reviewers."
+msgstr "Författare identitet kommer inte lämnas ut till recensenter."
+
+#: editAssignment.php:169
+msgid "Author identity will be revealed to reviewers."
+msgstr "Författare identitet kommer att avslöjas för recensenter."
+
+#: editAssignment.php:173
+msgid ""
+"Authors should see comments and marks in the feedback from the reviewers"
+msgstr "Författarna bör se kommentarer och varumärken i återkoppling från recensenter"
+
+#: editAssignment.php:174
+msgid "Authors should see comments only in the feedback from the reviewers"
+msgstr "Författarna bör se kommentarer endast i återkopplingen från recensenter"
+
+#: editAssignment.php:184 editInstitutions.php:91
+msgid "ADB"
+msgstr "ADB"
+
+#: editAssignment.php:187
+msgid ""
+"Optionally, instructors in the Computer Science Department can specify the "
+"ADB submission directory"
+msgstr "Alternativt kan lärare i datavetenskap Institutionen ange ADB inlämning katalogen"
+
+#: editAssignment.php:192
+msgid ""
+"Typically, all the submissions are in a common directory structure that "
+"incorporates the author UPI.\n"
+"Use the string <tt>&lt;&lt;author&gt;&gt; to indicate where the author's UPI "
+"appears (if not present,\n"
+"the UPI will be appended to the end). E.g."
+msgstr "Normalt samtliga argument är i en gemensam katalog struktur som innefattar författaren UPI. Använd string <tt><<author>> för att ange var författarens UPI visas (om det inte finns, UPI kommer att läggas till i slutet). T.ex.</tt>"
+
+#: editAssignment.php:198
+msgid "Restricted review viewing"
+msgstr "Begränsad prövning tittar"
+
+#: editAssignment.php:201
+msgid ""
+"Optionally, you can specify those reviews a reviewer can see after they "
+"complete their own reviewing.\n"
+"This is particularly useful as part of a training process, but not "
+"recommended for typical use of Arop&auml; for peer-assessment.\n"
+"The default is that reviewers can see all the other reviews of a submission "
+"that they have themselves reviewed.\n"
+"To restrict review viewing, enter one or more usernames, separated by semi-"
+"colons (;)"
+msgstr "Alternativt kan du ange dessa översyner en granskare kan se efter att de fullföljt sin egen granskning. Detta är särskilt användbart som ett led i en utbildning process, men rekommenderas inte för vanlig användning Aropä för peer-bedömning. Standardinställningen är att kontrollanterna kan se alla den andra recensioner av ett påstående att de själva har granskats. vill begränsa översynen tittar anger en eller flera användarnamn, separerade med semikolon (;)"
+
+#: editAssignment.php:220 editAssignment.php:314 editCourses.php:224
+#: editInstitutions.php:125 editRubric.php:155 editSurvey.php:93
+#: editUser.php:113 editUser.php:320 markEssay.php:69 survey.php:92
+msgid "Save"
+msgstr "Spara"
+
+#: editAssignment.php:236
+msgid "Enter a regular expression for the file type"
+msgstr "Skriv ett reguljärt uttryck för filtypen"
+
+#: editAssignment.php:271
+#, php-format
+msgid "The assignment being reviewed (#%d) does not exist!"
+msgstr "Uppdraget ses över (#%d) finns inte!"
+
+#: editAssignment.php:280
+msgid "Dates"
+msgstr "Datum"
+
+#: editAssignment.php:281
+msgid "Start date"
+msgstr "Startdatum"
+
+#: editAssignment.php:282
+msgid "End date"
+msgstr "Slutdatum"
+
+#: editAssignment.php:283
+msgid "Feedback start"
+msgstr "Feedback start"
+
+#: editAssignment.php:284
+msgid "Feedback end"
+msgstr "Feedback slut"
+
+#: editAssignment.php:286
+msgid "Reviewing"
+msgstr "Granska"
+
+#: editAssignment.php:288
+msgid "The reviewing will be done by:"
+msgstr "Den översyn kommer att göras av:"
+
+#: editAssignment.php:298
+msgid "Authors should see"
+msgstr "Författare bör se"
+
+#: editAssignment.php:299
+msgid "comments and marks"
+msgstr "kommentarer och betyg"
+
+#: editAssignment.php:299
+msgid "comments only"
+msgstr "kommentarer endast"
+
+#: editAssignment.php:300
+msgid "in the feedback from the reviewers"
+msgstr "i återkopplingen från recensenter"
+
+#: editCourses.php:24
+msgid "Name (include semester)"
+msgstr "Namn (omfattar termin)"
+
+#: editCourses.php:25 editCourses.php:213
+msgid "Access code"
+msgstr "Tillträdeskod"
+
+#: editCourses.php:26
+msgid "Instructor(s)"
+msgstr "Instruktör (er)"
+
+#: editCourses.php:27
+msgid "Active?"
+msgstr "Aktiv?"
+
+#: editCourses.php:55
+msgid "Changes saved"
+msgstr "Ändringarna har sparats"
+
+#: editCourses.php:58
+#, php-format
+msgid "Courses at <q>%s</q>"
+msgstr "Kurser på <q>%s</q>"
+
+#: editCourses.php:114
+#, php-format
+msgid "Added the course <q>%s</q>"
+msgstr "La kursen <q>%s</q>"
+
+#: editCourses.php:144
+#, php-format
+msgid "The course name <q>%s</q> is already in use"
+msgstr "Kursens namn <q>%s</q> används redan"
+
+#: editCourses.php:174 editUser.php:27 editUser.php:124
+msgid "There was a problem finding the course you selected."
+msgstr "Det var ett problem att hitta den kurs du valt."
+
+#: editCourses.php:186
+msgid "You do not have rights to create a new course"
+msgstr "Du har inte rättigheter för att skapa en ny kurs"
+
+#: editCourses.php:201
+msgid "Edit course"
+msgstr "Redigera kurs"
+
+#: editCourses.php:207
+msgid "Course details"
+msgstr "Kurs detaljer"
+
+#: editCourses.php:208 editUser.php:311
+msgid "Course name"
+msgstr "Kursens namn"
+
+#: editCourses.php:218
+msgid "The Course name should usually include the semester."
+msgstr "Kursens namn bör normalt omfatta terminen."
+
+#: editCourses.php:219
+msgid "You cannot use the same name as an existing course."
+msgstr "Du kan inte använda samma namn som en befintlig kurs."
+
+#: editCourses.php:220
+msgid ""
+"The Access code is a temporary password for first-time users.\n"
+" Users can login using the access code, but must then immediately set their "
+"own password.\n"
+" You do not need to give an access code if institutional authentication is "
+"available."
+msgstr "Access koden är ett tillfälligt lösenord för nya användare. Användare kan logga in med det prefixet, men måste då genast sätta sina egna lösenord. Du behöver inte ge en tillgång koden om institutionella autentisering är tillgänglig."
+
+#: editGroups.php:28 editGroups.php:129 editGroups.php:143
+msgid "Edit groups"
+msgstr "Redigera grupper"
+
+#: editGroups.php:29 editGroups.php:130
+msgid "This assignment does not use groups."
+msgstr "I uppdraget använder inte grupper."
+
+#: editGroups.php:30 editGroups.php:131
+msgid "You must first edit the assignment and set the Groups field."
+msgstr "Du måste först ändra uppdraget och som grupperna området."
+
+#: editGroups.php:59
+msgid "Author groups"
+msgstr "Författare grupper"
+
+#: editGroups.php:61
+msgid "Review groups"
+msgstr "Granskning grupper"
+
+#: editGroups.php:63 editGroups.php:136
+msgid "Groups"
+msgstr "Grupper"
+
+#: editGroups.php:66
+msgid "Each line should be of the form "
+msgstr "Varje linje bör vara av formen"
+
+#: editGroups.php:67
+msgid "groupID member-1 member-2 ..."
+msgstr "gid medlem-1 medlem-2 ..."
+
+#: editGroups.php:68
+msgid "Lines that start with # will be ignored."
+msgstr "Rader som börjar med # ignoreras."
+
+#: editGroups.php:71
+msgid "Upload groups"
+msgstr "Ladda upp grupper"
+
+#: editGroups.php:85
+#, php-format
+msgid "There is no assignment #%d"
+msgstr "Det finns ingen uppgift #%d"
+
+#: editGroups.php:144
+msgid "Return and view assignment"
+msgstr "Återvändande och visa uppdrag"
+
+#: editInstitutions.php:30
+msgid "Select an institution to view/change details, or "
+msgstr "Välj en institution för att se / ändra uppgifter, eller"
+
+#: editInstitutions.php:31
+msgid "create a new one"
+msgstr "skapa en ny"
+
+#: editInstitutions.php:43
+msgid "Cannot edit, as there is (suddenly?) no such institution!"
+msgstr "Kan inte redigera, eftersom det finns (plötsligt?) Ingen sådan institution!"
+
+#: editInstitutions.php:47
+msgid "Adding a new institution"
+msgstr "Lägga till en ny institution"
+
+#: editInstitutions.php:68
+msgid "Institution details"
+msgstr "Institution detaljer"
+
+#: editInstitutions.php:69
+msgid "Long name"
+msgstr "Långt namn"
+
+#: editInstitutions.php:75
+msgid "Short name"
+msgstr "Kort namn"
+
+#: editInstitutions.php:81
+msgid "Logo"
+msgstr "Logo"
+
+#: editInstitutions.php:87
+msgid "Features"
+msgstr "Funktioner"
+
+#: editInstitutions.php:88
+msgid "Time zone"
+msgstr "Tidszon"
+
+#: editInstitutions.php:96
+msgid "NetAccount"
+msgstr "NetAccount"
+
+#: editInstitutions.php:101
+msgid "IMAP server"
+msgstr "IMAP-server"
+
+#: editInstitutions.php:107
+msgid "LDAP server"
+msgstr "LDAP-server"
+
+#: editInstitutions.php:113
+msgid "LDAP base DN"
+msgstr "LDAP base DN"
+
+#: editInstitutions.php:119
+msgid "Administrators for this institution."
+msgstr "Administratörer för denna institution."
+
+#: editInstitutions.php:120
+msgid "Administrators can add courses and nominate instructors and guests."
+msgstr "Administratörer kan lägga till kurser och nominera lärare och gäster."
+
+#: editRubric.php:38 editSurvey.php:37
+msgid "You do not have access to that survey"
+msgstr "Du har inte tillgång till denna undersökning"
+
+#: editRubric.php:62
+msgid ""
+"Allocation record have already been created for this assignment.  If you "
+"change the rubric, you may invalidate existing reviews."
+msgstr "Fördelning rekord redan skapats för detta uppdrag. Om du ändrar rubriken kan du ogiltigförklara existerande recensioner."
+
+#: editRubric.php:140
+msgid ""
+"As you have only guest access rights for this course, you cannot save any "
+"changes to the rubric."
+msgstr "Som ni bara har gäst nyttjanderätt för denna kurs, kan du inte spara några ändringar i rubriken."
+
+#: editRubric.php:146
+msgid "Select existing rubric: "
+msgstr "Välj befintlig rubrik:"
+
+#: editRubric.php:361
+msgid "Rubric sharing saved"
+msgstr "Rubrik dela sparade"
+
+#: editRubric.php:377
+msgid "Do not share"
+msgstr "Dela inte"
+
+#: editRubric.php:378
+msgid "Share with colleagues at my institution"
+msgstr "Dela med kollegor vid min institution"
+
+#: editRubric.php:379
+msgid "Share with everyone"
+msgstr "Dela med alla"
+
+#: editSurvey.php:55
+msgid "Survey details"
+msgstr "Survey detaljer"
+
+#: editSurvey.php:56
+msgid "Survey name: "
+msgstr "Undersökningens namn:"
+
+#: editSurvey.php:61
+msgid "Participant data is: "
+msgstr "Deltagare data är:"
+
+#: editSurvey.php:64
+msgid "anonymous (data is not tied to participants)"
+msgstr "anonym (data inte är knuten till deltagare)"
+
+#: editSurvey.php:66
+msgid "confidential to the instructor"
+msgstr "konfidentiella för instruktör"
+
+#: editSurvey.php:68
+msgid "open"
+msgstr "öppet"
+
+#: editSurvey.php:70
+msgid "Results can be seen by: "
+msgstr "Resultaten kan ses på:"
+
+#: editSurvey.php:73
+msgid "instructors only"
+msgstr "instruktörer"
+
+#: editSurvey.php:75
+msgid "instructors and survey participants"
+msgstr "instruktörer och deltagarna i undersökningen"
+
+#: editSurvey.php:77
+msgid "everyone"
+msgstr "alla"
+
+#: editSurvey.php:134
+msgid "You cannot access the selected survey"
+msgstr "Du kan inte komma åt den valda undersökningen"
+
+#: editSurvey.php:147
+msgid "Edit survey"
+msgstr "Redigera undersökning"
+
+#: editSurvey.php:148 viewAssignment.php:41
+msgid "Edit rubric"
+msgstr "Redigera rubrik"
+
+#: editSurvey.php:149
+msgid "View results"
+msgstr "Visa resultat"
+
+#: editSurvey.php:152
+msgid "Delete survey"
+msgstr "Radera undersökning"
+
+#: editSurvey.php:155
+msgid "Show result details"
+msgstr "Visa resultat detaljer"
+
+#: editSurvey.php:156
+msgid "Download results"
+msgstr "Hämta resultat"
+
+#: editSurvey.php:167
+msgid ""
+"Information on who participated in the surveys is <b>anonymous (results "
+"cannot be traced to participants)</b>."
+msgstr "Information om vem som deltagit i undersökningarna är <b>anonyma (resultat kan inte spåras till deltagare).</b>"
+
+#: editSurvey.php:170
+msgid ""
+"Information on who participated in the surveys is <b>confidential "
+"(restricted to the instructor only)</b>."
+msgstr "Information om vem som deltagit i undersökningarna är <b>konfidentiell (begränsad till instruktör endast).</b>"
+
+#: editSurvey.php:173
+msgid ""
+"Information on who participated in the surveys is <b>available to everyone</"
+"b>."
+msgstr "Information om vem som deltagit i undersökningarna är <b>tillgängliga för alla.</b>"
+
+#: editSurvey.php:178
+msgid "Results of the survey are <b>available to the instructor only</b>"
+msgstr "Resultatet av undersökningen är <b>tillgängliga för instruktör endast</b>"
+
+#: editSurvey.php:181
+msgid ""
+"Results of the survey are <b>available to the instructor and all survey "
+"participants</b>"
+msgstr "Resultatet av undersökningen är <b>tillgängliga för instruktören och alla deltagare undersökning</b>"
+
+#: editSurvey.php:184
+msgid "Results of the survey are <b>available to everyone in the class</b>"
+msgstr "Resultatet av undersökningen är <b>tillgängliga för alla i klassen</b>"
+
+#: editSurvey.php:193
+msgid "The survey starts on "
+msgstr "Undersökningen börjar på"
+
+#: editSurvey.php:194 editSurvey.php:196
+msgid "an unspecified date"
+msgstr "ett obestämt datum"
+
+#: editSurvey.php:195
+msgid "Responses close on "
+msgstr "Svaren närmare"
+
+#: editSurvey.php:197 viewAssignment.php:209
+msgid "Return to the course page"
+msgstr "Gå tillbaka till kurssidan"
+
+#: editSurvey.php:207 editSurvey.php:217 editSurvey.php:229 editSurvey.php:249
+msgid "You do not have access to survey #"
+msgstr "Du har inte tillgång till enkäten #"
+
+#: editSurvey.php:209
+msgid "The survey is now activate"
+msgstr "Undersökningen är nu aktivera"
+
+#: editSurvey.php:219
+msgid "The survey has is now inactivate"
+msgstr "Undersökningen har nu inaktivera"
+
+#: editSurvey.php:234
+msgid "You cannot delete a survey that has responses recorded."
+msgstr "Du kan inte radera en undersökning som har svar registrerats."
+
+#: editSurvey.php:237
+msgid "Survey "
+msgstr "Survey"
+
+#: editSurvey.php:237
+msgid "has been deleted"
+msgstr "har tagits bort"
+
+#: editSurvey.php:252
+msgid "This is an anonymous survey; only summary results are available."
+msgstr "Detta är en anonym undersökning, bara sammanfattning av resultaten finns tillgängliga."
+
+#: editSurvey.php:316
+msgid "Detail results for survey "
+msgstr "Detalj resultat för undersökning"
+
+#: editSurvey.php:338
+#, php-format
+msgid "# Detailed results from survey %s as at %s"
+msgstr "# Detaljerade resultat från undersökningen %s som på %s"
+
+#: editSurvey.php:339
+msgid "User Identifier"
+msgstr "User Identifier"
+
+#: editUser.php:74 editUser.php:129 editUser.php:275
+msgid "Identity"
+msgstr "Identitet"
+
+#: editUser.php:75 editUser.php:312
+msgid "Instructor"
+msgstr "Instruktör"
+
+#: editUser.php:76 editUser.php:313
+msgid "Guest"
+msgstr "Gäst"
+
+#: editUser.php:77 editUser.php:314
+msgid "Marker"
+msgstr "Marker"
+
+#: editUser.php:103
+#, php-format
+msgid "Class list for <q>%s</q>"
+msgstr "Klass lista för <q>%s</q>"
+
+#: editUser.php:107
+msgid "Students"
+msgstr "Studerande"
+
+#: editUser.php:111
+msgid "Non-students"
+msgstr "Icke-studenter"
+
+#: editUser.php:130 editUser.php:276
+msgid "User name"
+msgstr "Användarnamn"
+
+#: editUser.php:131 editUser.php:277
+msgid "Email"
+msgstr "E-post"
+
+#: editUser.php:156
+msgid "Edit?"
+msgstr "Edit?"
+
+#: editUser.php:175
+msgid "Edit"
+msgstr "Redigera"
+
+#: editUser.php:207
+msgid "Search"
+msgstr "Sök"
+
+#: editUser.php:212
+#, php-format
+msgid "Current user accounts matching <q>%s</q> for <q>%s</q> at <q>%s</q>"
+msgstr "Löpande användarkonton matchande <q>%s</q> för <q>%s</q> på <q>%s</q>"
+
+#: editUser.php:215
+#, php-format
+msgid "Current user accounts matching <q>%s</q> at <q>%s</q>"
+msgstr "Löpande användarkonton matchande <q>%s</q> vid <q>%s</q>"
+
+#: editUser.php:218
+#, php-format
+msgid "Current user accounts for <q>%s</q> at <q>%s</q>"
+msgstr "Löpande användarkonton för <q>%s</q> vid <q>%s</q>"
+
+#: editUser.php:221
+#, php-format
+msgid "Current user accounts at <q>%s</q>"
+msgstr "Löpande användarkonton på <q>%s</q>"
+
+#: editUser.php:255
+msgid "The course you selected does not exist."
+msgstr "Kursen du valde finns inte."
+
+#: editUser.php:263
+msgid "Cannot edit, as there is (suddenly?) no such user!"
+msgstr "Kan inte redigera, eftersom det finns (plötsligt?) Ingen sådan användare!"
+
+#: editUser.php:273
+msgid "User details"
+msgstr "Användare detaljer"
+
+#: editUser.php:278
+msgid "Password"
+msgstr "Lösenord"
+
+#: editUser.php:315 extensions.php:198
+msgid "Student"
+msgstr "Student"
+
+#: editUser.php:322
+msgid "Edit user details"
+msgstr "Redigera användaruppgifter"
+
+#: extensions.php:26
+msgid "the assignment submission date"
+msgstr "uppdraget inlämningsdatum"
+
+#: extensions.php:30
+msgid "the assignment review date"
+msgstr "uppdraget översynen"
+
+#: extensions.php:40
+msgid "Add extension(s)"
+msgstr "Lägg till förlängning (s)"
+
+#: extensions.php:47
+msgid "The extension is for "
+msgstr "Förlängningen är"
+
+#: extensions.php:56
+#, php-format
+msgid "Authors who need to submit the assignment after %s"
+msgstr "Författare som behovet att lämna uppdraget efter %s"
+
+#: extensions.php:62
+#, php-format
+msgid "Reviewers who need to review assignments after %s"
+msgstr "Granskare som behöver se över uppdrag efter %s"
+
+#: extensions.php:68
+#, php-format
+msgid "Both late submission and review extension after %s"
+msgstr "Både sent och översyn förlängning efter %s"
+
+#: extensions.php:74
+msgid "Cancelling previously made extensions for these students"
+msgstr "Avbryta som tidigare utvidgningar för dessa elever"
+
+#: extensions.php:75
+msgid "Student identifiers"
+msgstr "Student identifierare"
+
+#: extensions.php:80
+msgid "New submission end date: "
+msgstr "Ny inlämning slutdatum:"
+
+#: extensions.php:84
+msgid "New review end date: "
+msgstr "Ny recension slutdatum:"
+
+#: extensions.php:97
+msgid "Please click on the radio button to specify who the extension is for."
+msgstr "Klicka på knappen för att ange vem som förlängningen är till för."
+
+#: extensions.php:102
+msgid "Please enter the names of one or more students"
+msgstr "Ange namnen på en eller flera studenter"
+
+#: extensions.php:123
+msgid "Please enter the date submissions are due"
+msgstr "Ange datum inlagor beror"
+
+#: extensions.php:131
+msgid "Please enter the date reviews are due"
+msgstr "Ange datum recensioner beror"
+
+#: extensions.php:139
+msgid "Please enter the date submissions are due and the date reviews are due"
+msgstr "Ange datum inlagor har rätt till och med dagen recensioner beror"
+
+#: extensions.php:184
+msgid "There is no assignment #"
+msgstr "Det finns ingen uppgift #"
+
+#: extensions.php:196
+msgid "No extensions have been granted for this assignment"
+msgstr "Inga förlängningar har beviljats för detta uppdrag"
+
+#: extensions.php:199
+msgid "Submission deadline"
+msgstr "Inlämningsdatum"
+
+#: extensions.php:200
+msgid "Reviewing deadline"
+msgstr "Granska deadline"
+
+#: extensions.php:202
+msgid "Current extensions"
+msgstr "Nuvarande förlängningar"
+
+#: instructorCmds.php:202
+#, php-format
+msgid "There is no user <q>%s</q> in the course <q>%s</q>"
+msgstr "Det finns ingen användare <q>%s</q> under <q>%s</q>"
+
+#: instructorCmds.php:215 login.php:246
+#, php-format
+msgid "You are now viewing Arop&auml; as <q>%s</q>"
+msgstr "Du är nu tittar Aropä som <q>%s</q>"
+
+#: instructorCmds.php:226
+msgid ""
+"From this page, instructors can see what a student will see when they login "
+"to Arop&auml;."
+msgstr "Från den här sidan kan lärare se vad en elev ser när de loggar in på Aropä."
+
+#: instructorCmds.php:231
+msgid "User identifier to impersonate: "
+msgstr "Användare identifierare för att imitera:"
+
+#: instructorCmds.php:233
+msgid "Impersonate"
+msgstr "Imitera"
+
+#: login.php:35
+msgid ""
+"No institutions have been registered.  Please contact the system "
+"administrator"
+msgstr "Inga institutioner har registrerats. Vänligen kontakta systemadministratören"
+
+#: login.php:46
+msgid "Please select your institution from the list"
+msgstr "Välj din institution från listan"
+
+#: login.php:48
+msgid "Select institution"
+msgstr "Välj institution"
+
+#: login.php:126
+msgid ""
+"The name and password you supplied could not be authenticated.  Please try "
+"again."
+msgstr "Namnet och lösenordet som du angav kunde inte verifieras. Försök igen."
+
+#: markEssay.php:43
+msgid ""
+"No further marking is permitted, as the review period for this assignment "
+"has ended"
+msgstr "Inga ytterligare märkning är tillåten, eftersom den granskade perioden för detta uppdrag har upphört"
+
+#: markEssay.php:47
+msgid ""
+"No further marking is permitted, as this allocation has been locked (to "
+"allow early viewing of feedback)"
+msgstr "Inga ytterligare märkning är tillåten, eftersom denna fördelning har varit låst (för att möjliggöra tidig visning av feedback)"
+
+#: markEssay.php:55
+#, php-format
+msgid "View allocation #%d for assignment <q>%s</q>"
+msgstr "Se anslag #%d för tilldelning <q>%s</q>"
+
+#: markEssay.php:60
+#, php-format
+msgid "Marking for allocation #%d for assignment <q>%s</q>"
+msgstr "Märkning för tilldelning #%d för tilldelning <q>%s</q>"
+
+#: markEssay.php:62
+msgid ""
+"Your browser is not using Javascript.  The Arop&auml; editor is disabled. "
+msgstr "Din webbläsare använder inte Javascript. Den Aropä redaktör är avstängd."
+
+#: markEssay.php:63
+msgid ""
+"If you previously entered comments using the Arop&auml; editor, they will "
+"appear in HTML format."
+msgstr "Om du tidigare har angett kommentarer genom att använda Aropä redaktör, visas de i HTML-format."
+
+#: markEssay.php:79
+msgid "Unable to find the assignment!"
+msgstr "Kunde inte hitta uppdraget!"
+
+#: markEssay.php:115
+msgid "Please confirm you wish to lock your reviews"
+msgstr "Vänligen bekräfta att du vill låsa din recensioner"
+
+#: markEssay.php:116
+msgid ""
+"Locking your reviews will prevent you from making any further changes.\n"
+"However, locking will allow other reviewers and authors to view your "
+"feedback,\n"
+"and you will also be able to view feedback from other reviewers who have "
+"locked their work."
+msgstr "Låsa dina recensioner kommer att hindra dig från att göra några ytterligare ändringar. Emellertid låsning gör andra granskare och författare att visa din feedback, och du kommer även att kunna se kommentarer från andra granskare som har låst sitt arbete."
+
+#: markEssay.php:121
+msgid ""
+"Regardless of whether you lock or not, feedback can be viewed after the "
+"review period has ended."
+msgstr "Oavsett om du låser eller inte, kan återkoppling ses efter översynen är slut."
+
+#: markEssay.php:122
+msgid "You cannot undo this action."
+msgstr "Du kan inte ångra åtgärden."
+
+#: markEssay.php:123
+msgid "Go ahead and lock my reviews"
+msgstr "Gå vidare och låsa mina recensioner"
+
+#: markEssay.php:144
+#, php-format
+msgid "Your reviews for <q>%s<q> are now locked"
+msgstr "Dina recensioner för <q>%s</q> är nu låst"
+
+#: markEssay.php:146
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: monitor-reviewing.php:58
+msgid "Assignment submissions"
+msgstr "Inskickade uppgifter"
+
+#: monitor-reviewing.php:59 monitor-reviewing.php:61 monitor-reviewing.php:222
+#: viewAssignment.php:367
+msgid "Return to the assignment page"
+msgstr "Återgå till uppdraget sida"
+
+#: monitor-reviewing.php:96
+msgid "MISSING"
+msgstr "FÖRSVUNNEN"
+
+#: monitor-reviewing.php:104
+msgid "Unable to find that submission"
+msgstr "Kan inte hitta detta påstående"
+
+#: monitor-reviewing.php:147
+msgid "Multiple tags"
+msgstr "Flera taggar"
+
+#: monitor-reviewing.php:151
+msgid "No tag given"
+msgstr "Inga taggar ges"
+
+#: monitor-reviewing.php:153
+msgid "Unknown tag"
+msgstr "Okänd tagg"
+
+#: monitor-reviewing.php:188
+msgid "Showing allocations for tag: "
+msgstr "Visar anslag för tagg:"
+
+#: monitor-reviewing.php:191
+msgid "Show only allocations for tag: "
+msgstr "Visa endast anslag för tagg:"
+
+#: monitor-reviewing.php:198
+msgid " (tag "
+msgstr "(Tagg"
+
+#: monitor-reviewing.php:208
+msgid "View allocations by submission"
+msgstr "Visa fördelningen i de inlämnande"
+
+#: monitor-reviewing.php:213
+msgid "View allocations by reviewer"
+msgstr "Se anslag per granskare"
+
+#: monitor-reviewing.php:258
+#, php-format
+msgid "Submission by %s for <q>%s</q>"
+msgstr "Inlämning av %s för <q>%s</q>"
+
+#: monitor-reviewing.php:262
+msgid "Submission"
+msgstr "Inlämning"
+
+#: monitor-reviewing.php:273 monitor-reviewing.php:450
+msgid "Marks"
+msgstr "Marks"
+
+#: monitor-reviewing.php:293 monitor-reviewing.php:469
+msgid "Choices"
+msgstr "Val"
+
+#: monitor-reviewing.php:338 monitor-reviewing.php:518
+msgid "There are no comments"
+msgstr "Det finns inga kommentarer"
+
+#: monitor-reviewing.php:351 monitor-reviewing.php:531
+msgid "Comment/Mark"
+msgstr "Kommentar / Mark"
+
+#: monitor-reviewing.php:387 monitor-reviewing.php:570
+msgid "Item legend"
+msgstr "Punkt legend"
+
+#: monitor-reviewing.php:430
+#, php-format
+msgid "Reviews by %s for <q>%s</q>"
+msgstr "Recensioner av %s för <q>%s</q>"
+
+#: monitor-reviewing.php:442
+msgid "The following submissions were allocated for review"
+msgstr "Följande yttranden har avsatts för granskning"
+
+#: monitor-reviewing.php:572
+msgid "Return to viewing allocations"
+msgstr "Återgå till visning anslag"
+
+#: reviewerCmds.php:29 reviewerCmds.php:32
+msgid "Show reviewer comments"
+msgstr "Visa granskare kommentarer"
+
+#: reviewerCmds.php:36
+msgid "View submission"
+msgstr "Se inlämning"
+
+#: reviewerCmds.php:39
+msgid "View and mark submission"
+msgstr "Visa och markera inlämning"
+
+#: reviewerCmds.php:43
+msgid "Mark submission"
+msgstr "Mark inlämning"
+
+#: reviewerCmds.php:64
+msgid "Respond to comments"
+msgstr "Svara på kommentarer"
+
+#: reviewerCmds.php:68
+msgid "Survey"
+msgstr "Survey"
+
+#: reviewerCmds.php:73
+msgid "Thank you"
+msgstr "Tack"
+
+#: showAllocations.php:27
+#, php-format
+msgid ": submission end: %s; reviewing end: %s"
+msgstr ": Inlämning slut: %s; revidering slutet: %s"
+
+#: showAllocations.php:40
+msgid ": the results of this survey are now available."
+msgstr ": Resultaten av denna undersökning finns nu tillgängliga."
+
+#: showAllocations.php:42
+msgid ": this survey is now closed"
+msgstr ": Denna undersökning är nu stängd"
+
+#: showAllocations.php:46
+msgid ""
+": you just completed this survey.  You can revise your response until the "
+"end of the current session."
+msgstr ": Du har just avslutat undersökningen. Du kan ändra ditt svar fram till slutet av den aktuella sessionen."
+
+#: showAllocations.php:48
+msgid ": you have completed this survey, thank you!"
+msgstr ": Du har slutfört denna undersökning, tack!"
+
+#: showAllocations.php:50
+#, php-format
+msgid " Results will be available after %s"
+msgstr "Resultaten kommer att finnas tillgänglig efter %s"
+
+#: showAllocations.php:55
+#, php-format
+msgid ": closes %s"
+msgstr ": Stänger %s"
+
+#: showAllocations.php:57
+#, php-format
+msgid ": opens %s"
+msgstr ": Öppnar %s"
+
+#: showAllocations.php:89
+#, php-format
+msgid " (submissions due by %s)"
+msgstr "(Bidrag på grund av %s)"
+
+#: showAllocations.php:94
+#, php-format
+msgid "Click here to upload your submission for <q>%s</q>"
+msgstr "Klicka här för att ladda upp ditt bidrag för <q>%s</q>"
+
+#: showAllocations.php:101
+msgid "Upload documents"
+msgstr "Ladda upp dokument"
+
+#: showAllocations.php:123 showAllocations.php:185
+msgid "Ready to mark"
+msgstr "Redo att markera"
+
+#: showAllocations.php:123 showAllocations.php:188 showAllocations.php:196
+msgid "Back with comments"
+msgstr "Tillbaka med kommentarer"
+
+#: showAllocations.php:123 showAllocations.php:182 showAllocations.php:192
+msgid "Ready to view"
+msgstr "Redo att visa"
+
+#: showAllocations.php:123 showAllocations.php:195
+msgid "Completed"
+msgstr "Avslutade"
+
+#: showAllocations.php:138
+msgid "Lock reviews"
+msgstr "Lås recensioner"
+
+#: showAllocations.php:139
+msgid ""
+"Locking means you cannot make any change to your reviews,\n"
+"but will let you (and others) view feedback before the review period is "
+"complete."
+msgstr "Låsning innebär att du kan inte göra några ändringar i dina recensioner, men låter dig (och andra) anser feedback innan rapportperioden är klar."
+
+#: showAllocations.php:154 viewAssignment.php:50
+msgid "Download all submissions"
+msgstr "Ladda ner alla inlagor"
+
+#: showAllocations.php:159
+#, php-format
+msgid " (reviews due by %s)"
+msgstr "(Recensioner på grund av %s)"
+
+#: showAllocations.php:170
+msgid "Reviewing allocations"
+msgstr "Granska tilldelningar"
+
+#: showAllocations.php:172
+msgid "There is currently nothing for you to review"
+msgstr "För närvarande finns det inget för dig att granska"
+
+#: showAllocations.php:220 showComments.php:78
+#, php-format
+msgid "Feedback for <q>%s</q>"
+msgstr "Feedback för <q>%s</q>"
+
+#: showAllocations.php:227
+msgid "Reviewer feedback"
+msgstr "Granskare feedback"
+
+#: showAllocations.php:232
+msgid "There is currently no feedback from reviewers"
+msgstr "Det finns för närvarande ingen feedback från recensenter"
+
+#: showAllocations.php:268 showAllocations.php:270
+msgid "View"
+msgstr "Visa"
+
+#: showAllocations.php:270
+msgid "Last viewed "
+msgstr "Senast visade"
+
+#: showAllocations.php:273
+msgid "Mark"
+msgstr "Mark"
+
+#: showAllocations.php:275 updateEssay.php:136
+msgid "Re-mark"
+msgstr "Re-märke"
+
+#: showAllocations.php:275 showAllocations.php:278
+msgid "Last marked "
+msgstr "Senaste markerade"
+
+#: showAllocations.php:278
+msgid "Show marks"
+msgstr "Visa betyg"
+
+#: showAllocations.php:288
+msgid "View other reviewer comments"
+msgstr "Visa andra granskare kommentarer"
+
+#: showComments.php:65
+msgid "No reviews have been written"
+msgstr "Inga recensioner har skrivits"
+
+#: showComments.php:68
+msgid "None of the reviewers have provided any comments"
+msgstr "Ingen av de recensenter har lämnat några synpunkter"
+
+#: showComments.php:73
+#, php-format
+
+#: showComments.php:76
+msgid "Based on one review."
+msgstr "Baserat på en recension."
+
+#: showComments.php:168
+msgid "Your responses have been recorded"
+msgstr "Dina svar har registrerats"
+
+#: showComments.php:169
+msgid "No responses were found"
+msgstr "Inga svar hittades"
+
+#: showReviewerComments.php:44
+msgid "Sorry, feedback on this assignment is no longer available for viewing"
+msgstr "Tyvärr, feedback på detta uppdrag är inte längre tillgängligt för visning"
+
+#: showReviewerComments.php:86
+msgid "No reviews are available"
+msgstr "Inga recensioner finns"
+
+#: showReviewerComments.php:88
+msgid "No reviewer comments are available"
+msgstr "Inga recensenter kommentarer finns"
+
+#: showReviewerComments.php:93
+#, php-format
+msgid "Reviewer feedback for <q>%s</q>"
+msgstr "Granskare feedback för <q>%s</q>"
+
+#: showSessionAudit.php:54
+msgid "Time"
+msgstr "Tid"
+
+#: showSessionAudit.php:55
+msgid "User"
+msgstr "Användare"
+
+#: showSessionAudit.php:56
+msgid "IP"
+msgstr "IP"
+
+#: showSessionAudit.php:57
+msgid "Event"
+msgstr "Event"
+
+#: showSessionAudit.php:82
+msgid "Previous block"
+msgstr "Föregående block"
+
+#: showSessionAudit.php:85
+msgid "Next block"
+msgstr "Nästa block"
+
+#: survey.php:24
+msgid "You do not have access to this survey"
+msgstr "Du har inte tillgång till denna undersökning"
+
+#: survey.php:30
+msgid "This survey is not currently available"
+msgstr "Denna undersökning finns för närvarande inte"
+
+#: survey.php:36
+msgid "You have already completed this survey."
+msgstr "Du har redan slutfört denna undersökning."
+
+#: survey.php:62
+msgid "Thank you for completing the survey"
+msgstr "Tack för att fylla i enkäten"
+
+#: survey.php:112
+msgid "The survey you have selected is not available."
+msgstr "Undersökningen du valt är inte tillgänglig."
+
+#: survey.php:129
+msgid "You are not permitted to view the results for this survey"
+msgstr "Det är inte tillåtet att visa resultaten för denna undersökning"
+
+#: survey.php:158
+#, php-format
+msgid "Results for survey <q>%s</q>, as at %s"
+msgstr "Resultat för undersökning <q>%s</q>, som på %s"
+
+#: survey.php:165
+#, php-format
+msgid " (%d responses)"
+msgstr "(%d svar)"
+
+#: survey.php:168
+msgid "Likert results"
+msgstr "Likert resultat"
+
+#: survey.php:176
+msgid "Selection items"
+msgstr "Valmöjligheterna"
+
+#: survey.php:193
+msgid "Open ended comments"
+msgstr "Obegränsad kommentarer"
+
+#: timeOnTask.php:54
+#, php-format
+msgid "Error: there is no assignment #%d"
+msgstr "Fel: det finns ingen uppgift #%d"
+
+#: timeOnTask.php:167
+msgid "Start time "
+msgstr "Starttid"
+
+#: timeOnTask.php:168
+msgid "  End time "
+msgstr "Sluttid"
+
+#: timeOnTask.php:171
+#, php-format
+msgid "Each . indicates activity lasting up to %s minutes"
+msgstr "Varje. Indikerar aktivitet som varar upp till minuter och %s"
+
+#: timeOnTask.php:174
+msgid "Legend: [ = login, ] = logout, . = activity, # = login/out"
+msgstr "Legend: [= inloggning,] = utloggning. = Aktivitet, # = login / ut"
+
+#: timeOnTask.php:182
+msgid "Name,Time(minutes)"
+msgstr "Namn, Tid (minuter)"
+
+#: timeOnTask.php:232
+msgid "Show times only"
+msgstr "Visa gånger bara"
+
+#: timeOnTask.php:234
+msgid "Show time chart"
+msgstr "Visa tid diagram"
+
+#: timeOnTask.php:236
+msgid "Time on task for assignment "
+msgstr "Tid på uppgift för tilldelning"
+
+#: updateEssay.php:33
+#, php-format
+msgid "Reviewing for this assignment finished on %s"
+msgstr "Granska för detta uppdrag slutfördes den %s"
+
+#: updateEssay.php:35
+#, php-format
+msgid "Reviewing for this assignment does not start until %s"
+msgstr "Granska för detta uppdrag inte börjar förrän %s"
+
+#: updateEssay.php:133
+#, php-format
+msgid "Summary of marking for allocation #%d of assignment <q>%s</q>"
+msgstr "Sammanfattning av märkning för tilldelning #%d av uppdrag <q>%s</q>"
+
+#: updateEssay.php:134
+msgid ""
+"Your submitted review is shown below.  Please check your responses, and use "
+"the re-mark button below if you need to make changes."
+msgstr "Du har skickat in recension visas nedan. Kontrollera dina svar, och använda på nytt märke på knappen nedan om du behöver göra ändringar."
+
+#: uploadSubmissions.php:32
+msgid "You do not have access to that assignment"
+msgstr "Du har inte tillgång till det uppdraget"
+
+#: uploadSubmissions.php:37
+msgid "You are uploading a submission outside the normal submission period"
+msgstr "Du laddar upp en inlämning utanför den normala perioden för inlämnande"
+
+#: uploadSubmissions.php:39
+msgid "That assignment is not available for uploading documents"
+msgstr "Detta uppdrag är inte tillgänglig för att ladda upp dokument"
+
+#: uploadSubmissions.php:69
+msgid "Select a tag for your assignment: "
+msgstr "Välj en tagg för din uppdrag:"
+
+#: uploadSubmissions.php:98
+msgid "Select the file you wish to upload"
+msgstr "Välj den fil du vill ladda upp"
+
+#: uploadSubmissions.php:102
+msgid ""
+"This does not appear to be the correct type of file.  Please check carefully."
+msgstr "Detta förefaller inte vara rätt typ av fil. Kontrollera noggrant."
+
+#: uploadSubmissions.php:109
+#, php-format
+msgid "You have previously uploaded <q>%s</q>. "
+msgstr "Du har tidigare lagt upp <q>%s</q>."
+
+#: uploadSubmissions.php:115
+msgid "Enter the URL for your submission"
+msgstr "Ange webbadressen för ditt bidrag"
+
+#: uploadSubmissions.php:121
+msgid "Type or copy-and-paste in your submission"
+msgstr "Skriv eller kopiera och klistra in ditt bidrag"
+
+#: uploadSubmissions.php:145
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: uploadSubmissions.php:150
+#, php-format
+msgid "Upload documents for <q>%s</q> by <q>%s</q>"
+msgstr "Ladda upp dokument för <q>%s</q> av <q>%s</q>"
+
+#: uploadSubmissions.php:213
+msgid "Sorry, this assignment is not available for uploads"
+msgstr "Tyvärr är denna uppgift inte tillgänglig för uppladdningar"
+
+#: uploadSubmissions.php:214
+msgid "Back"
+msgstr "Tillbaka"
+
+#: uploadSubmissions.php:265
+#, php-format
+
+#: uploadSubmissions.php:272
+msgid "One word entered in the Aropa editor"
+msgstr "Ett ord in i Aropa redaktör"
+
+#: uploadSubmissions.php:273
+msgid "Possible reasons include:"
+msgstr "Möjliga orsaker kan vara:"
+
+#: uploadSubmissions.php:274
+msgid "you pressed Upload before selecting any files;"
+msgstr "du tryckte upp innan du väljer alla filer;"
+
+#: uploadSubmissions.php:275
+msgid "the file name was incorrectly typed;"
+msgstr "filnamnet var felaktigt skrivit;"
+
+#: uploadSubmissions.php:276
+msgid "the file size exceeds the maximum permitted;"
+msgstr "filstorleken överskrider den högsta tillåtna;"
+
+#: uploadSubmissions.php:277
+msgid "you did not type or paste anything into the editor."
+msgstr "du inte skriva eller klistra in något i editorn."
+
+#: uploadSubmissions.php:278
+msgid "Please try again."
+msgstr "Försök igen."
+
+#: uploadSubmissions.php:290
+#, php-format
+msgid "Uploaded <q>%s</q>"
+msgstr "Uppladdad <q>%s</q>"
+
+#: uploadSubmissions.php:305
+msgid "You have not uploaded any documents"
+msgstr "Du har inte laddat upp några dokument"
+
+#: uploadSubmissions.php:315
+#, php-format
+msgid "You have not uploaded a document for requirement #%d: <q>%s</q>"
+msgstr "Du har inte lagt upp ett dokument för krav %d: <q>%s</q>"
+
+#: uploadSubmissions.php:319
+#, php-format
+msgid "The uploaded file <q>%s</q> does not match the expected file type"
+msgstr "Den uppladdade filen <q>%s</q> matchar inte den förväntade filtyp"
+
+#: uploadSubmissions.php:367
+msgid "You cannot delete that document"
+msgstr "Du kan inte radera denna handling"
+
+#: uploadSubmissions.php:375
+#, php-format
+msgid "Confirm deletion of <q>%s</q>"
+msgstr "Bekräfta radering av <q>%s</q>"
+
+#: viewAssignment.php:33
+msgid "active"
+msgstr "aktiva"
+
+#: viewAssignment.php:36
+msgid "not active"
+msgstr "inte aktiv"
+
+#: viewAssignment.php:40
+msgid "Edit assignment"
+msgstr "Redigera uppdrag"
+
+#: viewAssignment.php:42
+msgid "Specify allocations"
+msgstr "Ange anslag"
+
+#: viewAssignment.php:44
+msgid "Submit as an author"
+msgstr "Skicka som författare"
+
+#: viewAssignment.php:46
+msgid "Manage student extensions"
+msgstr "Hantera student förlängningar"
+
+#: viewAssignment.php:47
+msgid "Monitor submissions"
+msgstr "Övervaka bidrag"
+
+#: viewAssignment.php:48
+msgid "Monitor reviewing"
+msgstr "Monitor över"
+
+#: viewAssignment.php:49
+msgid "View all feedback"
+msgstr "Se alla kommentarer"
+
+#: viewAssignment.php:51
+msgid "Calculate Grades"
+msgstr "Beräkna Betyg"
+
+#: viewAssignment.php:52
+msgid "Delete assignment"
+msgstr "Radera uppdrag"
+
+#: viewAssignment.php:84
+msgid "The course for this assignment is inactive.  No changes can be made."
+msgstr "Kursen för detta uppdrag är inaktiv. Inga ändringar kan göras."
+
+#: viewAssignment.php:87
+msgid "The rubric has not been created yet. Use \"Edit rubric\" to create it"
+msgstr "Rubriken har inte skapats ännu. Använd \"Redigera rubriken\" för att skapa den"
+
+#: viewAssignment.php:89
+msgid "The rubric has no input items.  Use \"Edit rubric\" to add some."
+msgstr "Rubriken har ingen ingång objekt. Använd \"Redigera rubriken\" att lägga till några."
+
+#: viewAssignment.php:92
+msgid ""
+"Allocations have not yet been setup.  Use \"Specify Allocations\" to set up "
+"allocations."
+msgstr "Avsättning har ännu inte setup. Använd \"Ange Avsättning\" för att ställa upp anslag."
+
+#: viewAssignment.php:95
+msgid ""
+"Allocations are setup using tags, but not tags are specified.  Use \"Specify "
+"Allocations\" to set the tags."
+msgstr "Anslagen är inställda med taggar, men inte taggar. Använd \"Ange Avsättning\" för att ställa taggar."
+
+#: viewAssignment.php:97
+msgid ""
+"The number of allocations per reviewer or submission is not specified.  Use "
+"\"Specify Allocations\" to enter the desired number."
+msgstr "Antalet anslag per recensenter eller underkastelse är inte specificerad. Använd \"Ange Avsättning\" för att ange önskat nummer."
+
+#: viewAssignment.php:101
+msgid ""
+"No submission requirements have been specified.  Use \"Edit Assignment\" to "
+"add them."
+msgstr "Inga uppgifter krav har angivits. Använd \"Redigera Uppdrag\" för att lägga dem."
+
+#: viewAssignment.php:104
+msgid ""
+"The assignment is not active. Please activate it when you are ready to start."
+msgstr "Uppdraget är inte aktiv. Vänligen aktivera den när du är redo att börja."
+
+#: viewAssignment.php:107
+msgid ""
+"The dates for reviewing have not been set.  Use \"Edit Assignment\" to set "
+"them."
+msgstr "Datumen för granskning har inte fastställts. Använd \"Redigera uppdrag\" att fastställa dem."
+
+#: viewAssignment.php:109
+msgid ""
+"The review date is before submissions end!  Use \"Edit Assignment\" to "
+"correct the dates."
+msgstr "Översynen dag inträffar före inlagor slut! Använd \"Redigera uppdrag\" att rätta till datum."
+
+#: viewAssignment.php:116
+msgid "Submissions end on <b>an unspecified date</b>"
+msgstr "Inskickade slutet på <b>ett obestämt datum</b>"
+
+#: viewAssignment.php:117
+#, php-format
+msgid "Submissions end on <b>%s</b>"
+msgstr "Inskickade slutet på <b>%s</b>"
+
+#: viewAssignment.php:121
+msgid "Reviews end on <b>an unspecified date</b>"
+msgstr "Recensioner slutet på <b>ett obestämt datum</b>"
+
+#: viewAssignment.php:122
+#, php-format
+msgid "Reviews end on <b>%s</b>"
+msgstr "Recensioner slutet på <b>%s</b>"
+
+#: viewAssignment.php:126
+msgid "Submission requirements are: "
+msgstr "Inlämning krav är:"
+
+#: viewAssignment.php:131
+msgid "Authors <b>will not</b> review their own work"
+msgstr "Författarna <b>kommer inte att</b> granska sitt eget arbete"
+
+#: viewAssignment.php:132
+msgid "Authors <b>will</b> review their own work"
+msgstr "Författarna <b>kommer att</b> granska sitt eget arbete"
+
+#: viewAssignment.php:135
+msgid "Author identity <b>will</b> be revealed to reviewers"
+msgstr "Författare identitet <b>kommer</b> att avslöjas att recensenter"
+
+#: viewAssignment.php:136
+msgid "Author identity <b>will not</b> be revealed to reviewers"
+msgstr "Författare identitet <b>kommer inte lämnas ut</b> till recensenter"
+
+#: viewAssignment.php:139
+msgid ""
+"Authors should see <b>comments and marks</b> in the feedback from the "
+"reviewers"
+msgstr "Författarna bör se <b>kommentarer och varumärken</b> i återkoppling från recensenter"
+
+#: viewAssignment.php:140
+msgid ""
+"Authors should see <b>comments only</b> in the feedback from the reviewers"
+msgstr "Författarna bör se <b>kommentarer endast</b> i återkopplingen från recensenter"
+
+#: viewAssignment.php:153
+#, php-format
+msgid "Reviewing will use the rubric <b>%s</b>"
+msgstr "Översyn kommer att använda rubriken <b>%s</b>"
+
+#: viewAssignment.php:156
+msgid "Reviewing will use <b>a custom rubric</b>"
+msgstr "Översyn kommer att använda <b>en anpassad rubrik</b>"
+
+#: viewAssignment.php:161
+#, php-format
+msgid "Allocations are <b>%s</b>: <q>%s</q>"
+msgstr "Tilldelning är <b>%s</b>: </q>%s</q>"
+
+#: viewAssignment.php:163
+#, php-format
+msgid "Allocations are <b>%s</b>"
+msgstr "Tilldelning är <b>%s</b>"
+
+#: viewAssignment.php:171
+#, php-format
+
+#: viewAssignment.php:174
+msgid "Authors are <b>everyone in the class plus one ad-hoc author</b>"
+msgstr "Författarna är <b>alla i klassen plus en ad hoc-författare</b>"
+
+#: viewAssignment.php:176
+msgid "Authors are <b>student groups<b>"
+msgstr "Författare är <b>student grupper</b>"
+
+#: viewAssignment.php:177
+msgid "Authors are <b>listed separately</b>"
+msgstr "Författare <b>anges separat</b>"
+
+#: viewAssignment.php:178
+msgid "Authors are <b>not specified</b>"
+msgstr "Författarna är <b>inte specificerat</b>"
+
+#: viewAssignment.php:191
+#, php-format
+
+#: viewAssignment.php:196
+#, php-format
+
+#: viewAssignment.php:201
+#, php-format
+
+#: viewAssignment.php:217
+msgid " plus one marker"
+msgstr "plus en markör"
+
+#: viewAssignment.php:218
+msgid "Submissions are <b>individual</b>, reviews are by <b>groups</b>"
+msgstr "Bidragen är <b>individuella,</b> Recensioner av <b>grupper</b>"
+
+#: viewAssignment.php:219
+msgid "Submissions are by <b>groups</b>, reviews are <b>individual</b>"
+msgstr "Bidragen är av <b>grupper,</b> recensioner är <b>individuella</b>"
+
+#: viewAssignment.php:220
+msgid "Submissions and reviews are <b>both by groups</b>"
+msgstr "Framställningar och recensioner <b>både av grupper</b>"
+
+#: viewAssignment.php:234
+#, php-format
+msgid " (file of type %s)"
+msgstr "(Fil av typen %s)"
+
+#: viewAssignment.php:237
+msgid " (using the Arop&auml; editor)"
+msgstr "(Med hjälp av Aropä redaktör)"
+
+#: viewAssignment.php:240
+msgid " (a URL)"
+msgstr "(En URL)"
+
+#: viewAssignment.php:242
+msgid "required"
+msgstr "krävs"
+
+#: viewAssignment.php:242
+msgid "optional"
+msgstr "tillval"
+
+#: viewAssignment.php:256
+msgid "You do not have access to that course"
+msgstr "Du har inte tillgång till denna kurs"
+
+#: viewAssignment.php:278
+msgid "The assignment is now active"
+msgstr "Uppdraget är nu aktiv"
+
+#: viewAssignment.php:288
+msgid "The assignment is now inactive"
+msgstr "Uppdraget är nu inaktiv"
+
+#: viewAssignment.php:299
+msgid ""
+"The assignment is still active.  It must be de-activated before it can be "
+"deleted."
+msgstr "Uppdraget är fortfarande aktiv. Det måste avaktiveras innan den kan tas bort."
+
+#: viewAssignment.php:303
+msgid "Confirm deletion"
+msgstr "Bekräfta radering"
+
+#: viewAssignment.php:321
+#, php-format
+msgid "Assignment <q>%s</q> (#%d) has been deleted"
+msgstr "Uppdrag <q>%s</q> (#%d) har strukits"
+
+#: viewAssignment.php:357
+msgid "Marks awarded: "
+msgstr "Poäng:"
+
+#: viewAssignment.php:360
+#, php-format
+msgid "Item %d"
+msgstr "Punkt %d"
+
+#: viewAssignment.php:366
+msgid "Feedback"
+msgstr "Feedback"
+
+#: viewEssay.php:59
+#, php-format
+msgid "Documents for allocation #%d, assignment <q>%s</q>"
+msgstr "Dokument för tilldelning #%d <q>%s</q> uppdrag"

@@ -1,0 +1,14 @@
+*~
+.#*
+LOGFILE
+QUERY-TRACE.sql
+local-config.php
+messages/
+TAGS
+logos
+tinymce-old
+vendor
+composer.phar
+go-pear.phar
+.DS_Store
+node_modules

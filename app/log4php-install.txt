@@ -1,0 +1,6 @@
+curl -s http://getcomposer.org/installer | php
+php composer.phar install
+mkdir logs
+chmod 777 logs
+crontab -e
+@daily find '/usr/local/www/aropa/logs' -mtime +6 -type f -delete
