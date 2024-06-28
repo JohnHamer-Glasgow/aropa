@@ -14,8 +14,9 @@ extensions, outlier elimination and report creation.
 Aropä was provided on a wholly voluntary basis by two academics (Prof. Helen Purchase and Dr. John Hamer).
 
 ## Selected Publications
-* Purchase, H.C. and Hamer, J (2018). Perspectives on peer-review: eight years of Aropä, 
-  _Assessment & Evaluation in Higher Education_ 43(3), pp473-487, https://www.tandfonline.com/doi/abs/10.1080%2F02602938.2017.1359819
+
+* Purchase, H.C. and Hamer, J (2018). Perspectives on peer-review: eight years of Aropä,
+  _Assessment & Evaluation in Higher Education_ 43(3), pp473-487, <https://www.tandfonline.com/doi/abs/10.1080%2F02602938.2017.1359819>
 * Purchase, H.C. and Hamer, J (2018). Peer-review in practice: eight years of Aropä,
-  _Assessment & Evaluation in Higher Education_ 43(7), pp1146-1165, https://www.tandfonline.com/doi/abs/10.1080%2F02602938.2018.1435776
-* Purchase, H.C. and Hamer, J (2024). Trends in practical student peer-review, https://arxiv.org/abs/2401.00980
+  _Assessment & Evaluation in Higher Education_ 43(7), pp1146-1165, <https://www.tandfonline.com/doi/abs/10.1080%2F02602938.2018.1435776>
+* Purchase, H.C. and Hamer, J (2024). Trends in practical student peer-review, <https://arxiv.org/abs/2401.00980>
